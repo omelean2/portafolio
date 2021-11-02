@@ -7113,8 +7113,23 @@ fieldset:disabled .btn {
 	margin-top: 50px;
 }
 
+@supports (background-blend-mode: multiply) {
+	#contactame {
+		background: url(../images/hero.jpg);
+		background-blend-mode: multiply;
+		background-size: cover;
+	}
+}
+
 .proyecto {
 	max-width: 740px;
+}
+
+.proyecto img {
+	width: 100%;
+	height: 300px;
+	-o-object-fit: cover;
+	object-fit: cover;
 }
 
 #sobre-mi {
@@ -7145,4 +7160,8 @@ fieldset:disabled .btn {
 	left: 0;
 	z-index: 999;
 	width: 100%;
+}
+
+.redes .btn {
+	width: 150px;
 }
