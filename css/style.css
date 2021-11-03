@@ -7115,7 +7115,7 @@ fieldset:disabled .btn {
 
 @supports (background-blend-mode: multiply) {
 	#contactame {
-		background: url(../images/hero.jpg);
+		background: url(../images/hero.webp);
 		background-blend-mode: multiply;
 		background-size: cover;
 	}
